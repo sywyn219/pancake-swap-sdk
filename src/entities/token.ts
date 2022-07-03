@@ -64,7 +64,7 @@ export function currencyEquals(currencyA: Currency, currencyB: Currency): boolea
     return currencyA === currencyB
   }
 }
-
+console.log("chainid------->",ChainId)
 export const WETH = {
   [ChainId.MAINNET]: new Token(
     ChainId.MAINNET,
