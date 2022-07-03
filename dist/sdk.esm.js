@@ -14,10 +14,8 @@ import { getDefaultProvider } from '@ethersproject/providers';
 var _FACTORY_ADDRESS_MAP, _INIT_CODE_HASH_MAP, _SOLIDITY_TYPE_MAXIMA;
 var ChainId;
 
-(function (ChainId) {
-  ChainId[ChainId["MAINNET"] = 2398] = "MAINNET";
-  ChainId[ChainId["TESTNET"] = 97] = "TESTNET";
-})(ChainId || (ChainId = {}));
+ChainId[ChainId["MAINNET"] = 2398] = "MAINNET";
+ChainId[ChainId["TESTNET"] = 97] = "TESTNET";
 
 var TradeType;
 

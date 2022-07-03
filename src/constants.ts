@@ -3,7 +3,7 @@ import JSBI from 'jsbi'
 // exports for external consumption
 export type BigintIsh = JSBI | number | string
 
-export enum ChainId {
+export enum  ChainId {
   MAINNET = 2398,
   TESTNET = 97
 }
